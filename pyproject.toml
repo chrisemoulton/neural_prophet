@@ -38,7 +38,7 @@ livelossplot = { version = ">=0.5.5,<1.0", optional = true }
 live = ["livelossplot"]
 
 [tool.poetry.group.dev.dependencies]
-black = { extras = ["jupyter"], version = "^23.1.0" }
+black = { extras = ["jupyter"], version = ">=23.1,<25.0" }
 flake8 = "^5.0.4"
 isort = "^5.11.5"
 pytest = "^7.2"
